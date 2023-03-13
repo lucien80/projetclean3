@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import os
 
 def print_logo():
   print("""
@@ -28,6 +29,6 @@ choice = input("> ")
 if choice == "1":
     exec(open("nouveau55.py").read())
 elif choice == "2":
-    exec(open("script2.py").read())
+    os.system("nwipe")
 else:
     print("Option invalide.")
